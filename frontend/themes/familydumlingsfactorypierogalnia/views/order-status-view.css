@@ -1,0 +1,70 @@
+.order-status-view {
+  display: block;
+  height: 100%;
+}
+
+.order-status-view vaadin-grid {
+  height: 100%;
+  line-height: var(--lumo-line-height-m);
+}
+
+.order-status-view vaadin-grid,
+.order-status-view vaadin-grid-cell-content {
+  background-color: var(--lumo-contrast-10pct);
+}
+
+.order-status-view .card {
+  background-color: var(--lumo-base-color);
+  border-radius: var(--lumo-border-radius);
+  box-shadow: var(--lumo-box-shadow-xs);
+  padding: calc(var(--lumo-space-s) * 1.5) var(--lumo-space-m);
+}
+
+.order-status-view img {
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: var(--lumo-size-m);
+  margin-right: calc(var(--lumo-space-s) * 1.5);
+  width: var(--lumo-size-m);
+}
+
+.order-status-view .header {
+  align-items: baseline;
+}
+
+.order-status-view .name {
+  font-size: var(--lumo-font-size-s);
+  font-weight: bold;
+  margin-right: var(--lumo-space-s);
+}
+
+.order-status-view .date {
+  color: var(--lumo-tertiary-text-color);
+  font-size: var(--lumo-font-size-xs);
+}
+
+.order-status-view .post {
+  color: var(--lumo-secondary-text-color);
+  font-size: var(--lumo-font-size-s);
+  margin-bottom: var(--lumo-space-s);
+  white-space: normal;
+}
+
+.order-status-view .actions {
+  align-items: center;
+}
+
+.order-status-view .icon {
+  color: var(--lumo-tertiary-text-color);
+  height: calc(var(--lumo-icon-size-s) * 0.8);
+  margin-right: var(--lumo-space-s);
+  width: calc(var(--lumo-icon-size-s) * 0.8);
+}
+
+.order-status-view .likes,
+.order-status-view .comments,
+.order-status-view .shares {
+  color: var(--lumo-tertiary-text-color);
+  font-size: var(--lumo-font-size-xs);
+  margin-right: var(--lumo-space-l);
+}
