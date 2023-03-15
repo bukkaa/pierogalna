@@ -1,4 +1,6 @@
-# Family Dumlings Factory 'Pierogalnia'
+# Family Dumlings Factory 'Pierogalna'
+
+The Async Dumplings Factory that is able to cook variety of dumplings and pierogi-s!
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.
 It contains all the necessary configuration and some placeholder files to get you started.
